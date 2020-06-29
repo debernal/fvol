@@ -6,9 +6,12 @@ The intention of this script is to reduce the time needed to run volatility comm
 
 
 TODO:
+
 Flagging abnormal behavior of well-known Windows processes, based on the SANS Poster known evil. 
 Calculating hash values of the dumped files and submitting hashes to Virus Total automatically using an API key to find known evil. 
 Scanning the memory dump using a collection of memory based YARA rules. 
 Scanning the dumped files with a collection of YARA rules. 
 Compare the output against a known-good memory dump baseline.
 Add support for Mac OS and Linux memory dumps.
+
+Check a video of how it works: https://youtu.be/ZDNqx_jXdlc
